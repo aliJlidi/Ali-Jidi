@@ -1,0 +1,199 @@
+.body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    background-color: #C7C8C7;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 4.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #E88501;
+    padding-bottom: 10px;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+h4 {
+    margin-top: 3%;
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #828282 10px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.navbar {
+    background-color: #11999E;
+}
+
+.nav-link {
+    color: #E88501;
+    padding: 0% 10%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    display: inline;
+    bottom: 1000px;
+}
+
+.nav-img {
+    width: 20%;
+    height: 20%;
+}
+
+.Bottom-Cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+
+}
+
+.profile {
+    margin-bottom: 10%;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.row {
+    margin-top: 3%;
+}
+
+.carousel-video {
+    position: relative;
+    float: left;
+    left: 15%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.carsousel-paragrpahs {
+    position: relative;
+    font-size: 1.3rem;
+    left: 20%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .carsousel-paragrpahs {
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 3%;
+    }
+
+    .carousel-video {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #Projects {
+        text-align: center;
+        margin: 0% 0%;
+    }
+}
+
+.my-pic {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+}
+
+.game-pic {
+    border-radius: 50%;
+    float: left;
+    margin: 30px;
+    width: 20%;
+    height: 20%;
+}
+
+.dev-pic {
+    border-radius: 50%;
+    float: right;
+    margin: 30px;
+    width: 20%;
+    height: 20%;
+}
+
+#Projects {
+    margin: 10% 0%;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.middle-container {
+    height: auto;
+    width: auto;
+    position: relative;
+    margin: 100px 0;
+    text-align: center;
+
+}
+
+.contact-me {
+    text-align: center;
+}
+
+.contact-message {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn {
+    padding: 0px;
+    margin: 5% 0%;
+}
+
+.footer-link {
+    margin: 5%;
+}
